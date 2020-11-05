@@ -17,8 +17,7 @@ import android.hardware.Camera.PreviewCallback;
 import android.hardware.Camera.AutoFocusCallback;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+
 import android.util.Log;
 import android.view.Gravity;
 import android.view.SurfaceHolder;
@@ -30,6 +29,8 @@ import android.widget.TextView;
 import android.content.pm.PackageManager;
 import android.view.Surface;
 
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 import java.util.Collection;
